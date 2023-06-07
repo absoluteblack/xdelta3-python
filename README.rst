@@ -8,15 +8,16 @@ Fast delta encoding in python using xdelta3.
 Requirements
 ------------
 
-* **Python 3.5 or 3.6** - it's 2017, you should be using python 3.6 by now anyway.
+* **Python 3.11** - it's 2023, you should be using python 3.11 by now anyway.
 * **linux** - compilation only tested on ubuntu, might work on other platform.
 
 Installation
 ------------
 
 .. code:: shell
+        
+        God save us all. Checkout the xdelta submodule, make, move all xdelta .c and .h files to /xdelta3/, pip install .
 
-    pip install xdelta3
 
 Usage
 -----
